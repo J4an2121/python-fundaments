@@ -1,4 +1,4 @@
-ipos de datos simples en Python
+Tipos de datos simples en Python
 
 En Python, los tipos de datos simples son los que se usan para representar valores básicos como texto o números.
 Los más comunes son:
@@ -61,3 +61,4 @@ print(f"cadena de texto combinada {10 + 5}")
 
 
 print(f"el numero 10.5 tiene el tipo de dato {type(10.5)}")
+
