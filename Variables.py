@@ -1,31 +1,16 @@
+En Python, una variable es un nombre que se usa para guardar un valor en la memoria del computador.
+Piensa en una variable como una caja con una etiqueta: la etiqueta es el nombre de la variable y dentro de la caja está el valor que contiene.
 
-#📌Esta línea pide al usuario que escriba su nombre.
-#🧠 input() detiene el programa hasta que el usuario responda.
-#📝 Lo que escriba se guarda en la variable nombre_alumno y en nivel
+nombre = "Juan"
+edad = 25
+altura = 1.75
 
-nombre_alumno= input("Ingrese su nombre: ")
+nombre → guarda un texto ("Juan") → tipo str (cadena de texto).
 
+edad → guarda un número entero (25) → tipo int.
 
-#📌 Aquí le pedimos al usuario que indique su nivel de conocimiento sobre Python.
-#📝 El valor ingresado se guarda en la variable nivel.
+altura → guarda un número decimal (1.75) → tipo float.
 
-
-nivel= input("Ingrese su nivel de conocimiento (básico, intermedio, avanzado): ")
-
-
-
-
-#📌 Imprime el nombre que ingresó el usuario.
-#🔸 El \n al inicio genera un salto de línea para que el texto quede más ordenado
-print("\nNombre del alumno:", nombre_alumno)
-
-#📌 Este print usa una f-string, una forma moderna de insertar variables en texto
-print(f"Nivel de conocimiento:{nivel} \n")
-
-
-#📌 Da un mensaje adaptado al nivel del usuario. Aunque siempre dice que empezará desde lo básico, puedes personalizarlo
-print(f"Hola {nombre_alumno }, bienvenido al curso de Python.")
-print(f"Tu conocimiento es {nivel}, comenzaremos con un repaso de los conceptos básicos.")
 
 
 
@@ -54,3 +39,4 @@ print("Mensaje personal: ¡Es increíble ver cómo crecen las lechugas aquí arr
 print("Fecha: 2024-01-11")
 print("Realizamos una caminata espacial para reparar un panel solar.")
 print("Mensaje personal: Flotar en el espacio nunca deja de asombrarme.\n")
+
